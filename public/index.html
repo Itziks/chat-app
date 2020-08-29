@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+
+</head>
 
 <body>
-    Chat App
+    <form id="message-form">
+        Welcome to my Chat App<br>
+        <input name="message" placeholder="Type your message.."><br>
+        <button>Send</button>
+    </form>
+    <button id="send-location">Send location</button>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/chat.js"></script>
 </body>
 
 </html>
